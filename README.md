@@ -22,7 +22,10 @@ To run this toolkit, you will need Python 3.x and the following packages:
 - `gensim`
 
 You can install these packages via pip:
+```python
 pip install pdfplumber python-docx pandas re transformers pyspellchecker nltk gensim
+```
+
 
 
 ## Usage
