@@ -4,7 +4,7 @@
 This Document Classifier provides a comprehensive solution for scanning files in a specified directory, extracting text, generating tags based on content, and summarizing the text using Hugging Face's transformers. It supports multiple file formats including PDF, DOCX, TXT, and CSV. This toolkit is ideal for managing large volumes of documents, providing quick insights, and organizing content efficiently.
 
 ## Features
-- **Text Extraction**: Supports PDF, DOCX, TXT, and CSV files.
+- **Text Extraction**: Supports PDF, DOCX, TXT, JSON, and CSV files.
 - **Text Cleaning**: Includes special handling for character and punctuation spacing and removing extra whitespace.
 - **Semantic Tagging**: Uses topic modeling to generate relevant tags from the content.
 - **Summarization**: Utilizes Hugging Face's BART large model to create concise summaries.
@@ -55,7 +55,12 @@ Due to the complex and technical nature of the content, it might be beneficial t
    - **Regex and Text Processing:** Utilize custom Python scripts equipped with regular expressions to further refine summaries, addressing common textual errors and awkward phrasings.
    - **Custom Refinement Function:** Develop a function to identify and correct specific error patterns or complex jargon in the summaries, enhancing simplicity and clarity by providing additional context to the summarization model.
 
-
+## Version History
+- **Classifier**: Basic tag generation.
+- **ClassifierV2**: Tag generation and quick, efficient semantic summaries.
+- **ClassifierV3**: Tag generation and advanced semantic summaries using Hugging Face Transformers.
+- **ClassifierV4**: Added JSON support to advanced model.
+  
 ## Contributing
 Contributions to this project are welcome! Please fork the repository and submit pull requests with your proposed changes.
 
